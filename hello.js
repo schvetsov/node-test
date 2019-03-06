@@ -1,4 +1,4 @@
-var greet = function() {
+var world = function() {
     console.log("Hello world");
 };
 
@@ -11,4 +11,7 @@ var person = {
     }
 };
 
-module.exports = person;
+module.exports = {
+    person: person,
+    world: world
+};
